@@ -1,0 +1,15 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+pymysql>=1.1
+python-jose[cryptography]>=3.3
+passlib[bcrypt]>=1.7
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.10
+torch>=2.2
+torchvision>=0.17
+reportlab>=4.2
+pydantic-settings>=2.4
+email-validator>=2.2

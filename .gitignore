@@ -1,0 +1,61 @@
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+dist/
+build/
+.next/
+.vite/
+coverage/
+
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+.ipynb_checkpoints/
+wandb/
+mlruns/
+data/
+datasets/
+# Uncomment if you do NOT want trained model files in Git:
+# *.pth
+# *.pt
+# *.ckpt
+# *.onnx
+
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+*.egg-info/
+.eggs/
+wheels/
